@@ -1,0 +1,109 @@
+.header-links {
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    font-family: "Francois One", sans-serif;
+    color: #fff;
+    text-shadow: 4px 4px 4px black;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 1s ease; 
+    transform: translateX(100%); 
+}
+.menu-wrapper.show .header-links {
+    opacity: 1; 
+    transform: translateX(0); 
+}
+.header-links:nth-child(1) {
+    transition-delay: 0.4s;
+}
+.header-links:nth-child(2) {
+    transition-delay: 0.6s; 
+}
+.header-links:nth-child(3) {
+    transition-delay: 0.8s;
+}
+.header-links:nth-child(4) {
+    transition-delay: 1s; 
+}
+.header-links:nth-child(5) {
+    transition-delay: 1.2s; 
+}
+.menu-wrapper.show .header-links:hover {
+    color: #4d4d4df5; 
+}
+.menu-wrapper {
+    border-top-left-radius: 20px;
+    z-index: 1000;
+    margin-top: 115px;
+    display: flex;
+    position: fixed;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100%;
+    background: #111111f5;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: translateX(100%); /* Initially move menu out of viewport */
+    transition: transform 1s ease; /* Slide transition */
+}
+.links-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 40px;
+    opacity: 0; /* Initially hide menu items */
+    transition: opacity 1s ease; /* Fade transition */
+}
+.menu-wrapper.show {
+    transform: translateX(0); /* Slide in menu when 'show' class is applied */
+}
+.menu-wrapper.show .links-menu {
+    opacity: 1; /* Fade in menu items when 'show' class is applied */
+}
+.close-icon{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 1%;
+    background: #fff;
+    transition: color 0.6s ease; 
+}
+.close-icon:hover{
+    background: #4d4d4df5;
+}
+@media only screen and (max-width: 768px) {
+    .header-links{
+        font-size: 16px;
+    }
+    .menu-wrapper {
+        align-items: center; 
+        width: 55%; 
+        height: auto; 
+        margin-top: 90px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        padding-top: 0;
+    }
+    .links-menu {
+        margin-top: 20px; 
+        gap: 40px; 
+    }
+    .header-links {
+        font-size: 24px; 
+    }
+    .close-icon {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-self: baseline;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}

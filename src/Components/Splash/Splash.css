@@ -1,0 +1,64 @@
+/*  TOP FUNCTIONALITY  */
+/* @keyframes diagonalSlideLogo {
+    from {
+        transform: translate(-50vw, -50vh);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+.logo {
+    animation: diagonalSlideLogo 1.5s ease-out forwards;
+}
+ */
+ html{
+    scroll-behavior: smooth; 
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 180px;
+    gap: 150px;
+}
+.logo {
+    width: 15rem;
+    display: flex;
+    flex-direction: row;
+    align-self: baseline;
+    margin-left: 25%;
+    border-radius: 10px;
+}
+.perf-vid{
+    min-height: 400px;
+    width: 70%;
+}
+/* MOBILE STYLING */
+@media only screen and  (max-width: 768px) {
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 115px;
+        gap: 10px;
+    }
+    .logo{
+        width: 10rem;
+        align-self: center;
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+    .title2{
+        font-size: 45px;
+    }
+    .perf-vid{
+        min-height: 310px;
+        width: 100vw;
+    }
+}

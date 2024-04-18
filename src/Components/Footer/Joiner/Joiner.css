@@ -1,0 +1,90 @@
+#contact-section{
+    padding-top: 115px;
+}
+.footer-container {
+    background: #2b2b2be0;
+    display: flex;
+}
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.foot-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    width: 40%;
+    margin-left: 30px;
+}
+.foot-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    gap: 70px;
+}
+.foot-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Francois One", sans-serif;
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 4px 4px 4px black;
+}
+.exit-statement, .exit-statement-mobile {
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.5;
+    color: #fff;
+}
+.exit-statement-mobile{
+    display: none;
+}
+.last-words-footer{
+    font-weight: 500;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    text-align: center;
+    line-height: 2.5;
+    color: #fff;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+}
+.mobile-phone{
+    display: none;
+}
+.mobile{
+    display: none;
+}
+/* MOBILE CSS */
+@media only screen and (max-width: 768px) {
+    .footer-wrapper{
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .foot-title{
+        font-size: 36px;
+        text-align: center;
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+    .foot-left{
+        width: 50%;
+    }
+    .foot-right{
+        justify-content: flex-start;
+    }
+    .last-words-footer{
+        font-size: 16px;
+    }
+    #contact-section{
+        padding-top: 90px;
+    }
+}
