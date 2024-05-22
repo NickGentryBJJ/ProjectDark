@@ -1,9 +1,10 @@
 import React from 'react';
 import './Joiner.css';
-import Social from "../Social/Social"
-import MobileTradeMarks from "../MobileTradeMarks/MobileTradeMarks"
-import DesktopTrademarks from "../DesktopTrademarks/DesktopTrademarks"
-import ContactButtons from "../ContactButtons/ContactButtons"
+import Social from "../Social/Social";
+import MobileTradeMarks from "../MobileTradeMarks/MobileTradeMarks";
+import DesktopTrademarks from "../DesktopTrademarks/DesktopTrademarks";
+import ContactButtons from "../ContactButtons/ContactButtons";
+import bandIcon from '../../../images/Band Photos/Logos/Pepper.png';
 
 function Joiner(): JSX.Element {
     return (
@@ -11,12 +12,7 @@ function Joiner(): JSX.Element {
             <div  className="footer-container">
                 <div className="footer-wrapper">
                     <div className="foot-left">
-                        <h1 className="foot-title">
-                            Dark Nesesities
-                        </h1>                   
-                        <span className="last-words-footer">
-                            Thank you for visiting!
-                        </span>
+                        <img className='foot-band-icon' src={bandIcon} alt="" />                 
                         <Social/>
                         <MobileTradeMarks/>        
                     </div>

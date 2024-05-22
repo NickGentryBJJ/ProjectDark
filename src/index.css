@@ -47,11 +47,11 @@ table {
 }
 body{
 	overflow-x: hidden;
-	background-image: url(./images/background.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
+	background-color: rgb(230, 230, 230);
 }
 #root{
 	display: flex;

@@ -22,16 +22,12 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-top: 180px;
+    margin-top: 110px;
     gap: 150px;
 }
 .logo {
-    width: 15rem;
+    width: 30rem;
     display: flex;
-    flex-direction: row;
-    align-self: baseline;
-    margin-left: 25%;
-    border-radius: 10px;
 }
 .perf-vid{
     min-height: 400px;

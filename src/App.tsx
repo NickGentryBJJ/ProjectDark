@@ -15,8 +15,8 @@ function App(): JSX.Element {
       <SideMenu isClicked={isClicked} setIsClicked={setIsClicked}/>
       <Splash/>
       <ShowIndex/>
-      <Media/>
-      <AboutIndex/>
+      {/* <Media/> */}
+      {/* <AboutIndex/> */}
       <Footer/>
     </>
   );

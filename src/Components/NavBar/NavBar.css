@@ -2,7 +2,12 @@
     position: fixed;
     top: 0px;
 }
-.nav-logo, .menu-button, .nav-media-item  {
+.nav-logo{
+    width: 10rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.menu-button, .nav-media-item  {
     width: 4.2rem;
     cursor: pointer;
     border-radius: 10px;
@@ -12,7 +17,8 @@
 }
 .nav-media-links{
     display: flex;
-    gap: 40px
+    gap: 40px;
+    margin-right: 6%;
 }
 .nav-logo-cont{
     margin-left: 2%;

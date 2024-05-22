@@ -46,8 +46,8 @@ function SideMenu(props: menuProps) {
     const linkItems: Record<string, () => void> = {  
         "Home": keniBurke,
         "Calender": scrollToShows,
-        "Gallery": scrollToMedia,
-        "Meet The Band": scrollToAbout,
+        // "Gallery": scrollToMedia,
+        // "Meet The Band": scrollToAbout,
         "Contact": scrollToContact
     };
     return (
