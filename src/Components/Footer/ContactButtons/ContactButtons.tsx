@@ -12,7 +12,7 @@ function ContactButtons(): JSX.Element {
                 <a 
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    href="mailto:luvsikangel@gmail.com">
+                    href="mailto:darknecessitiestribute@gmail.com">
                     <button className="email-button">
                         <img 
                             className="kokachin" 
