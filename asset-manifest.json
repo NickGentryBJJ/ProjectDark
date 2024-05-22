@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ProjectDark/static/css/main.a62d2628.css",
+    "main.js": "/ProjectDark/static/js/main.e7a72d76.js",
+    "static/js/453.9f824715.chunk.js": "/ProjectDark/static/js/453.9f824715.chunk.js",
+    "static/media/band_icon.png": "/ProjectDark/static/media/band_icon.07a4c016b218270600f3.png",
+    "static/media/Pepper.png": "/ProjectDark/static/media/Pepper.8a67389d3945ff32d1a8.png",
+    "static/media/insta-link.png": "/ProjectDark/static/media/insta-link.ead1470f682fdd553f8a.png",
+    "static/media/github_2111425.png": "/ProjectDark/static/media/github_2111425.d3263084234dc705b2ae.png",
+    "static/media/navInsta.png": "/ProjectDark/static/media/navInsta.56d3c2ef9b43e98875c0.png",
+    "static/media/facebook-icon.png": "/ProjectDark/static/media/facebook-icon.795fce8e464693d7346d.png",
+    "static/media/close.png": "/ProjectDark/static/media/close.72401139f5804d7cc0ac.png",
+    "static/media/navYoutube.png": "/ProjectDark/static/media/navYoutube.4ad78c4004874a182b12.png",
+    "static/media/Email.png": "/ProjectDark/static/media/Email.726685267fcbd04d0211.png",
+    "index.html": "/ProjectDark/index.html",
+    "main.a62d2628.css.map": "/ProjectDark/static/css/main.a62d2628.css.map",
+    "main.e7a72d76.js.map": "/ProjectDark/static/js/main.e7a72d76.js.map",
+    "453.9f824715.chunk.js.map": "/ProjectDark/static/js/453.9f824715.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a62d2628.css",
+    "static/js/main.e7a72d76.js"
+  ]
+}
