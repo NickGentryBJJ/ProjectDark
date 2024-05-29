@@ -46,7 +46,7 @@
     right: 0;
     width: 400px;
     height: 100%;
-    background: #111111f5;
+    background: #001772e0;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transform: translateX(100%); /* Initially move menu out of viewport */
