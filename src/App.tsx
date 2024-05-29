@@ -14,8 +14,8 @@ function App(): JSX.Element {
       <NavBar isClicked={isClicked} setIsClicked={setIsClicked}/>
       <SideMenu isClicked={isClicked} setIsClicked={setIsClicked}/>
       <Splash/>
+      <Media/>
       <ShowIndex/>
-      {/* <Media/> */}
       {/* <AboutIndex/> */}
       <Footer/>
     </>

@@ -1,0 +1,13 @@
+.media-wrap{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.main-img{
+    width: 100%;
+}
+.videos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
