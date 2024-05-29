@@ -32,7 +32,7 @@
     transition-delay: 1.2s; 
 }
 .menu-wrapper.show .header-links:hover {
-    color: #4d4d4df5; 
+    color: #ff0000; 
 }
 .menu-wrapper {
     border-top-left-radius: 20px;
@@ -76,7 +76,7 @@
     transition: color 0.6s ease; 
 }
 .close-icon:hover{
-    background: #4d4d4df5;
+    background: #ff0000;
 }
 @media only screen and (max-width: 768px) {
     .header-links{

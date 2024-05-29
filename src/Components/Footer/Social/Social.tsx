@@ -27,6 +27,7 @@ function Social(): JSX.Element {
                     <a target="_blank" rel="noreferrer" className="social-link" href={value.link}>
                         <img 
                             className="social-image"
+                            id={key}
                             src={value.image} 
                             alt={key} 
                             key={key}

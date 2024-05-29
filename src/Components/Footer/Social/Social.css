@@ -11,6 +11,9 @@
     width: 6rem;
     border-radius: 20px;
 }
+#youtube{
+    width: 7rem;
+}
 .social-link{
     display: flex;
 }

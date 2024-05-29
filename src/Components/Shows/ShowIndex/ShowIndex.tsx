@@ -8,7 +8,7 @@ function ShowIndex(): JSX.Element {
             "month": "June",                               
             "check": "6",
             "day": "6th",
-            "time": "",
+            "time": "9:00PM",
             "year": "2024",
             "maps": "https://www.google.com/maps/dir//2112+N+Main+St,+Walnut+Creek,+CA+94596/@37.9088647,-122.1469277,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808561977b5834a7:0x1d4b3deaeaf94f61!2m2!1d-122.0645267!2d37.9088934?entry=ttu",
             "name": "Retro Junkie"
@@ -27,7 +27,7 @@ function ShowIndex(): JSX.Element {
         <div id="show-section">
             <div className="show-section-wrapper">
                 <h1 className="show-title">
-                    LIVE TOUR
+                    Live Tour
                 </h1>                
                 {Object.entries(dates).map(([key, value]: [string, Record<string, string>]): JSX.Element | null => { 
                         return (

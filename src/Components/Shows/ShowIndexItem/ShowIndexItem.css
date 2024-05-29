@@ -19,7 +19,7 @@
     text-transform: uppercase;
 }
 .time-text {
-    color: #ffd700; 
+    color: #ff0000; 
 }
 .maps-link{
     text-decoration: none;   
@@ -35,7 +35,7 @@
     font-family: "Francois One", sans-serif;
 }
 .location:hover {
-    color: #ffd700; 
+    color: #ff0000; 
 }
 @media only screen and (max-width: 768px) {
     .show-item-wrapper{
