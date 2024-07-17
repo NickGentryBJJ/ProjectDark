@@ -4,14 +4,14 @@ import ShowIndexItem from "../ShowIndexItem/ShowIndexItem";
 
 function ShowIndex(): JSX.Element {
     const dates: Record<string, Record<string, string>> = { 
-        "PSB2": {                                           
-            "month": "June",                               
-            "check": "6",
-            "day": "6th",
-            "time": "9:00PM",
+        "PSBS": {                                           
+            "month": "September",                               
+            "check": "7",
+            "day": "7th",
+            "time": "",
             "year": "2024",
-            "maps": "https://www.google.com/maps/dir//2112+N+Main+St,+Walnut+Creek,+CA+94596/@37.9088647,-122.1469277,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808561977b5834a7:0x1d4b3deaeaf94f61!2m2!1d-122.0645267!2d37.9088934?entry=ttu",
-            "name": "Retro Junkie"
+            "maps": "https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUqDwgAECMYJxjjAhiABBiKBTIPCAAQIxgnGOMCGIAEGIoFMhUIARAuGCcYrwEYxwEYgAQYigUYjgUyBggCEEUYOTIMCAMQABhDGIAEGIoFMg0IBBAAGIMBGLEDGIAEMgwIBRAuGBQYhwIYgAQyDQgGEC4YrwEYxwEYgAQyCggHEAAYsQMYgAQyCggIEC4YsQMYgAQyCggJEAAYsQMYgATSAQc2ODFqMGo3qAIAsAIA&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KVUqXV-354-AMSZenMcXDet2&daddr=875+Rincon+Ave,+Livermore,+CA+94551",
+            "name": "Pine Street Bar"
         },
         "PSB": {                                           
             "month": "September",                               
