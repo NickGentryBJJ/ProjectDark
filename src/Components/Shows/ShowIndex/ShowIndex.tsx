@@ -13,7 +13,7 @@ function ShowIndex(): JSX.Element {
             "maps": "https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUqDwgAECMYJxjjAhiABBiKBTIPCAAQIxgnGOMCGIAEGIoFMhUIARAuGCcYrwEYxwEYgAQYigUYjgUyBggCEEUYOTIMCAMQABhDGIAEGIoFMg0IBBAAGIMBGLEDGIAEMgwIBRAuGBQYhwIYgAQyDQgGEC4YrwEYxwEYgAQyCggHEAAYsQMYgAQyCggIEC4YsQMYgAQyCggJEAAYsQMYgATSAQc2ODFqMGo3qAIAsAIA&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KVUqXV-354-AMSZenMcXDet2&daddr=875+Rincon+Ave,+Livermore,+CA+94551",
             "name": "Pine Street Bar"
         },
-         "PSB": {                                           
+         "PSB14": {                                           
             "month": "September",                               
             "check": "21",
             "day": "21st",
