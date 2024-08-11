@@ -13,6 +13,15 @@ function ShowIndex(): JSX.Element {
             "maps": "https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUqDwgAECMYJxjjAhiABBiKBTIPCAAQIxgnGOMCGIAEGIoFMhUIARAuGCcYrwEYxwEYgAQYigUYjgUyBggCEEUYOTIMCAMQABhDGIAEGIoFMg0IBBAAGIMBGLEDGIAEMgwIBRAuGBQYhwIYgAQyDQgGEC4YrwEYxwEYgAQyCggHEAAYsQMYgAQyCggIEC4YsQMYgAQyCggJEAAYsQMYgATSAQc2ODFqMGo3qAIAsAIA&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KVUqXV-354-AMSZenMcXDet2&daddr=875+Rincon+Ave,+Livermore,+CA+94551",
             "name": "Pine Street Bar"
         },
+         "PSB": {                                           
+            "month": "September",                               
+            "check": "21",
+            "day": "21st",
+            "time": "",
+            "year": "2024",
+            "maps": "https://www.google.com/maps/place/GARDEN+AMP/@33.7770723,-117.9405991,16z/data=!3m1!4b1!4m6!3m5!1s0x80dd2809136ccd83:0x7601eef67cb146a!8m2!3d33.7770723!4d-117.9405991!16s%2Fg%2F11bbx074h1?entry=ttu",
+            "name": "GARDEN AMP"
+        },
         "PSB": {                                           
             "month": "September",                               
             "check": "28",
